@@ -1,0 +1,17 @@
+{
+  "name": "@es50678/tazij",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/es50678/tazij.git"
+  },
+  "volta": {
+    "node": "12.18.3",
+    "yarn": "1.22.4"
+  }
+}
