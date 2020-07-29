@@ -1,3 +1,3 @@
-import { FreshdeskAdapter } from './freshdesk-adapter';
+import FreshdeskAdapter from './freshdesk-adapter';
 
-export default FreshdeskAdapter;
+export = FreshdeskAdapter;
