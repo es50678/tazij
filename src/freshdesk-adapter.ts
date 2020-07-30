@@ -13,7 +13,7 @@ interface AdapterOptions {
   apiKey: string
 }
 
-export = class FreshdeskAdapter {
+export default class FreshdeskAdapter {
   private authorization: AuthorizationConfiguration;
   private baseAPIUrl: string;
   private baseUrl: string;

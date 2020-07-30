@@ -9,11 +9,11 @@ $ yarn add @es50678/tazij
 ## Usage
 #### commonJS/node
 ```(javascript)
-const Tazjit = require('@es50678/tazjit')
+const Tazij = require('@es50678/tazij')
 
 // plug in your subdomain and api key
 // ie: if your freshdesk domain is "https://google.freshdesk.com"
-const freshdeskHost = new Tazjit({ subdomain: 'google', apiKey: 'abc' })
+const freshdeskHost = new Tazij({ subdomain: 'google', apiKey: 'abc' })
 
 // get all freshdesk ticket links related to a given JIRA ticket
 freshdeskHost.ticketsForJIRA("GOOG-349")
