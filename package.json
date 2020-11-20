@@ -3,7 +3,7 @@
   "author": "Eduardo Hernandez Soto <es50678@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
