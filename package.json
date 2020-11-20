@@ -5,17 +5,14 @@
   "main": "lib/index.js",
   "version": "1.0.1",
   "private": false,
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/es50678/tazij.git"
   },
   "scripts": {
     "publish-all": "yarn run publish-github && yarn run publish-npm",
-    "publish-npm": "yarn publish --access public --registry https://registry.npmjs.org/",
-    "publish-github": "yarn publish --access public"
+    "publish-npm": "yarn publish --access public",
+    "publish-github": "yarn publish --access public --registry https://registry.npmjs.org/"
   },
   "volta": {
     "node": "12.18.3",
