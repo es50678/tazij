@@ -28,7 +28,7 @@ export default class FreshdeskAdapter {
 
     this.host = axios.create({
       baseURL: this.baseAPIUrl,
-      headers: { Authorization: `Basic ${this.authorization.apiKey}` }
+      auth: { username: apiKey, password: 'X' }
     })
   }
 
